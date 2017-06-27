@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  get 'feed' => 'welcome#home'
+  get 'home' => 'welcome#home'
 
-  get 'profile' => 'welcome#about'
+  get 'about' => 'welcome#about'
 
-  get 'explore' => 'welcome#contact'
+  get 'contact' => 'welcome#contact'
 
   root 'welcome#home'
 

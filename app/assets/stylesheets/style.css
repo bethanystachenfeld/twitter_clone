@@ -1,0 +1,32 @@
+.jumbotron{
+	background-color: #03C9CA;
+	text-align: center;
+	color: white;
+	margin: 0px;
+	border-radius: 0px;
+}
+
+.container .btn-primary{
+	background-color: #098283;
+}
+
+.container .btn-secondary{
+	color: #03C9CA;
+}
+
+.container img{
+	margin-top: 20px;
+	margin-bottom: -20px;
+}
+
+.btn-outline-success{
+	color: #098283;
+	border: 1px solid #098283;
+}
+
+.btn-outline-success:hover{
+	background-color:#098283;
+	color:white;
+	border: none;
+}
+

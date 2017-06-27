@@ -4,34 +4,64 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title> Welcome to Tweeter. Sign Up with Us Now. </title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   </head>
+<style>
 
- <style>
-
-.container{
-	background-color: pink;
+.jumbotron{
+	background-color: #03C9CA;
+	text-align: center;
+	color: white;
+	margin: 0px;
+	border-radius: 0px;
 }
 
- </style>
+.container .btn-primary{
+	background-color: #098283;
+}
 
+.container .btn-secondary{
+	color: #03C9CA;
+}
+
+.container img{
+	margin-top: 20px;
+	margin-bottom: -20px;
+}
+
+.btn-outline-success{
+	color: #098283;
+	border: 1px solid #098283;
+}
+
+.btn-outline-success:hover{
+	background-color:#098283;
+	color:white;
+	border: none;
+}
+
+
+ </style>
   <body>
 
-<!--   	hero     -->
+<!--   	Jumbotron    -->
 
-  	<div class=="jumbotron jumbotron-fluid hero">
-  		<div class="container">
-		  <h1 class="display-3">Hello, world!</h1>
-		  <p class="lead"> I'm a subheading </p>
-		  <hr class="my-4">
-		  <p> It uses.... </p>
-		  <a class="btn btn-primary btn-lg" href="#" role="button"> Log in </a>
-		  <a class="btn btn-primary btn-lg" href="#" role="button"> Sign up </a>
-		</p>
-		  <img src="#" alt="image">
-		</div> <!-- container -->
-	</div> <!--jumbotron-->
+
+	<div class="jumbotron">
+      <div class="container">
+        <h1>What's on Your Mind?</h1>
+        <p>Feel free to rant all of your thoughts and feelings. No one cares, so you can really say anything. You might me the love of your life here!</p>
+        <div class="buttons">
+	        <a class="btn btn-primary btn-lg" href="#" role="button">Sign Up &raquo;</a>
+	        <a class="btn btn-secondary btn-lg" href="#" role="button"> Log In </a>
+   		</div>
+        <img src="https://cdn.filestackcontent.com/9QcpkiJoQr2ctkFajTPV" alt="image" width="40">
+
+
+      </div>
+    </div>
 
 <!--   	Nav Bar     -->
 
@@ -40,23 +70,24 @@
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">Tweeter</a>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="about">About</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+       <li class="nav-item">
+        <a class="nav-link" href="contact">Contact</a>
       </li>
+   
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button></p>
     </form>
   </div>
 </nav>
