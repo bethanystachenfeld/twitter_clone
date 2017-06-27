@@ -16,6 +16,6 @@ class ApplicationController < ActionController::Base
       :current_password, :name, :username, :bio, :location) }
 
   end
-
+  
 end
 
