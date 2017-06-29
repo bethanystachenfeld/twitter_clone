@@ -1,2 +1,10 @@
-<h1>Tweets#edit</h1>
-<p>Find me in app/views/tweets/edit.html.erb</p>
+  def update
+    respond_to do |format|
+        if @tweet.update(tweet_params)
+          format.html { redirect_to @tweet, notice: 'Post was successfully updated.' }
+      else
+        format.html { render :edit }
+
+      end
+    end
+  end

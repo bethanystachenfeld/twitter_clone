@@ -1,11 +1,16 @@
 Rails.application.routes.draw do
-  get 'tweets/show'
+ 
+  get 'new' => 'tweets#new'
 
-  get 'tweets/edit'
+  get 'index' => 'tweets#index'
 
-  get 'tweets/update'
+  get 'show' => 'tweets#show'
 
-  get 'tweets/destroy'
+  get 'edit' => 'tweets#edit'
+
+  get 'update' => 'tweets#update'
+
+  get 'destroy' => 'tweets#destroy'
 
   get 'home' => 'welcome#home'
 
