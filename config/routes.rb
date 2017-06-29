@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'tweets/show'
+
+  get 'tweets/edit'
+
+  get 'tweets/update'
+
+  get 'tweets/destroy'
+
   get 'home' => 'welcome#home'
 
   get 'about' => 'welcome#about'
